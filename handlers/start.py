@@ -45,7 +45,7 @@ async def start(_, message: Message):
                         "🛠  Help Menu 🛠", callback_data="cbhelpmenu"
                     ),
                     InlineKeyboardButton(
-                        "⚒ Create your one 📦", url="https://www.youtube.com/watch?v=G58pr-Ro5aY&t=37s&pp=sAQA"
+                        "⚒ Support group 📦", url="https://t.me/KicchaRequest"
                     )
                 ],
                 [
@@ -53,7 +53,7 @@ async def start(_, message: Message):
                         "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support Group ", url="https://t.me/slbotzone"
+                        "💬 Support Channel ", url="https://t.me/AnikhaX_Music2"
                     )
                 ]
             ]
@@ -153,7 +153,7 @@ Made  ❤️ by **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/slbotzone"
+                        "💬 Support Group", url="https://t.me/KicchaRequest"
                     )
                 ]
             ]
@@ -198,7 +198,7 @@ Enjoy ❤️!""",
                         "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "💬 Support Group", url="https://t.me/slbotzone"
+                        "💬 Support Group", url="https://t.me/KicchaRequest"
                     )
                 ]
             ]
