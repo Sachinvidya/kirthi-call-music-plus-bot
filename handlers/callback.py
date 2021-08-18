@@ -20,7 +20,7 @@ async def cbback(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "⏸ Pause ⏸", callback_data="cbpause"
+                        "ᐦ Pause ᐦ", callback_data="cbpause"
                     ),
                     InlineKeyboardButton(
                         "▶️ Resume ▶️", callback_data="cbresume"
@@ -28,7 +28,7 @@ async def cbback(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "⏩ Skip ⏩", callback_data="cbskip"
+                        "≫ Skip ≫", callback_data="cbskip"
                     ),
                     InlineKeyboardButton(
                         "❌ End ❌", callback_data="cbend"
@@ -73,15 +73,15 @@ Made ❤️ **@{UPDATES_CHANNEL}**""",
                 ],
                 [
                     InlineKeyboardButton(
-                        "⚒ Create your one 📦", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA"
+                        "⚒ Music Group 📦", url="https://t.me/AnikhaX_Music2"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔔  My Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "🔔  My Movie Update Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "⚡️ Developer", url="https://t.me/supunma"
+                        "⚡️My Boss", url="https://t.me/sachin_official_admin"
                     )
                 ]
             ]
@@ -146,7 +146,7 @@ async def cbhowtouse(_, query: CallbackQuery):
   
 **Using Player Commands:**
     1️⃣ **📛 Group Admin Commands 🔰 ,**
-     🏷  /play - Reply to supported url, Reply to Audio File or Send /play  with [⭕️ Supported Url List ⭕️](https://ytdl-org.github.io/youtube-dl/supportedsites.html)
+     🏷  /play - Reply to supported url, Reply to Audio File or Send /play  with [⭕️ Support Group ⭕️](https://t.me/KicchaRequest)
        **Example:** /play https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
         
      🏷 /nplay  - Play Song by Name. (Currenty Supported for Youtube Only)
@@ -181,7 +181,7 @@ Made  ❤️ by **@{UPDATES_CHANNEL}**""",
             [
                 [
                     InlineKeyboardButton(
-                        "💠 My commands & features 💠", url="https://t.me/SL_bot_zone/263"
+                        "💠 My command Group 💠", url="https://t.me/KicchaRequest"
                     ),
                     InlineKeyboardButton(
                         "◀️ Back ◀️", callback_data="cbhelpmenu"
