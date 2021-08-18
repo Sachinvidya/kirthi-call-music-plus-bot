@@ -21,7 +21,7 @@ async def _(bot: Client, cmd: Message):
     await handle_user_status(bot, cmd)
 
 # Back Button
-BACK_BUTTON = InlineKeyboardMarkup([[InlineKeyboardButton("⬅️ Go Back ⬅️", callback_data="cbback")]])
+BACK_BUTTON = InlineKeyboardMarkup([[InlineKeyboardButton("☜ 𝐆𝐨 𝐁𝐚𝐜𝐤 ☜", callback_data="cbback")]])
 
 @Client.on_message(~filters.private)
 async def delcmd(_, message: Message):
@@ -53,18 +53,18 @@ async def controlset(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⏸ Pause ⏸", callback_data="cbpause"
+                        "ᐦ Pause ᐦ", callback_data="cbpause"
                     ),
                     InlineKeyboardButton(
-                        "▶️ Resume ▶️", callback_data="cbresume"
+                        "ᐓ Resume ᐓ", callback_data="cbresume"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "⏩ Skip ⏩", callback_data="cbskip"
+                        "≫ Skip ≫", callback_data="cbskip"
                     ),
                     InlineKeyboardButton(
-                        "⏹ End ⏹", callback_data="cbend"
+                        "⊙ End ⊙", callback_data="cbend"
                     )
                 ],
                 [
@@ -86,7 +86,7 @@ async def controlset(_, message: Message):
 @authorized_users_only
 async def pause(_, message: Message):
     if callsmusic.pause(message.chat.id):
-        await message.reply_text("⏸ Paused")
+        await message.reply_text("ᐦ Paused")
     else:
         await message.reply_text("❗️ Nothing is playing")
 
@@ -168,7 +168,7 @@ async def unmute(_, message: Message):
 @Client.on_callback_query(filters.regex("cbpause"))
 async def cbpause(_, query: CallbackQuery):
     if callsmusic.pause(query.message.chat.id):
-        await query.edit_message_text("⏸ Song Paused", reply_markup=BACK_BUTTON)
+        await query.edit_message_text("ᐦ Song Paused", reply_markup=BACK_BUTTON)
     else:
         await query.edit_message_text("❗️ Nothing is playing, Lol!", reply_markup=BACK_BUTTON)
 
